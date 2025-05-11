@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        header {
+            background-color: #1F2937;
+            padding-top: 20px;
+            
+        }
+        body {
+            font-family: sans-serif; 
+            font-size: 22px;
+            margin: 0px;
+        } 
+
+        .links {
+            flex-direction: row;
+            justify-content: space-between;  
+            color: #e5e7eb;
+            font-size: 18px; 
+            margin: 0px 12px 0px 12px;
+        }
+
+        .informationheader {
+            font-size: 36px;
+            color: #1F2937;
+            font-weight:  900px;
+        }
+        
+        .logotext {
+            font-size: 24px;
+            color: #f9F8F8;
+            padding-left: 100px;
+            padding-top: 30px;
+        }
+
+        .maintext {
+            font-size: 48px;
+            color: #f9F8F8;
+            padding-left: 100px;
+            padding-top: 10px;
+        }
+
+        .subtext {
+            color: #e5e7eb;
+            font-size: 18px;
+        }
+
+        .subtext2 {
+            color: #e5e7eb;
+            font-size: 18px;
+            text-align: center;
+        }
+        .qoute {
+            background-color: #e5e7eb;
+            font-style: italic;
+            font-size: 36px;
+            color: #1F2937;
+        }
+        .footer {
+            background-color: #1F2937;
+            color: #e5e7eb;
+            font-size: 18px;
+        }
+        .boxcontainer{
+            height: 140px;
+                margin-top: 50px;
+                margin-bottom: 75px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+                margin-left: 400px;
+                margin-right: 400px;
+        }
+        
+
+        .bluebox2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+        .bluebox{
+            border: solid, #3382f6, 4px;
+            border-radius: 10px;
+            width: 40px;
+            height: 40px;
+            padding: 35px;
+            margin: 50px 50px 10px 50px;
+        }
+
+        
+        .btn-group .button {
+        background-color: #3382f6; 
+        border: solid;
+        border-color: white;
+        border-radius: 5px;
+        color: white;
+        padding: 3px 7px 3px 7px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        cursor: pointer;
+        margin: 4px 2px;
+        
+        }
+
+        .btn-group .button:hover {
+            background-color: #2971dc;
+            }
+
+    </style>
+</head>
+
+<body>
+    <!--Top Section-->
+    <header> 
+        <div style="display: flex; align-items: center">
+            <div style="flex: 1">
+                <a class="logotext">Story Collective</a>
+            </div>
+            <div style="padding-right: 50px;">
+                <a class="links">About</a>
+                <a class="links">FAQs</a>
+                <a class="links">Resources</a>
+            </div>
+        </div>
+        
+        <!--container-->
+        <div style="display: flex; align-items: center; margin: 100px 0px 0px 0px; padding: 0px 0px 150px 0px">
+            <!-- Left side: Text and button -->
+            <div style="flex: 1;">
+                <div class="maintext">
+                    This Site is Awesome
+                </div>
+                <div class="subtext" style="margin-left: 100px;">
+                    This text has some subtext underneath it that goes here under the main title. It's a smaller font and lower contrast text. 
+                </div>
+                <div>
+                    <button style="background-color: #3382f6; margin: 10px 0px 0px 100px; border-radius: 5px; border-color: #3382f6; color: white; padding: 5px 15px 5px 15px;">
+                        Sign Up
+                    </button>
+                </div>
+            </div>
+    
+            <!-- Right side: Gray box -->
+            <div style="background-color: gray; margin: 25px 50px 50px 50px; padding: 100px 50px 100px 50px; flex: 1; color: white; text-align: center;">
+                This is a placeholder for an image
+            </div>
+        </div>
+    </header>
+
+    <!--Middle Section-->
+    <div class="informationheader">
+        <p style="text-align: center;">Some Random Information</p>
+    </div>
+    
+    <div class="boxcontainer" >
+       <div class="bluebox2">
+            <!--I can't figure out how to get this to be centered. I feel like I have tried everything on it. I'm stuck for sure,-->
+            <div class="bluebox"></div>
+            <a class="subtext2">this is some subtext under an illustration or image</a>
+            </div>
+        <div class="bluebox2">
+            <div class="bluebox"></div>
+            <a class="subtext2">this is some subtext under an illustration or image</a>
+        </div>
+        <div class="bluebox2">
+            <div class="bluebox"></div>
+            <a class="subtext2">this is some subtext under an illustration or image</a>
+        </div>
+        <div class="bluebox2">
+            <div class="bluebox"></div>
+            <a class="subtext2">this is some subtext under an illustration or image</a>
+        </div>
+
+    </div>
+    </div>
+
+    <!--Qoute-->
+    <div class="qoute" style="padding: 20px 80px 20px 80px;">
+        <p style="text-align: center;">This is an inspiring qoute and testimoney from a former client. "Wow, this changed my life, I would pay a billion dollars for this, you should too"</p>
+        <p style="text-align: right; font-weight: bolder;">- Josh Horton</p>
+    </div>
+    <!--Call to Action-->
+    <div>
+        <div style="display: flex;">
+            <div style="flex: 1; background-color: #3382f6; padding: 40px 35px 40px 35px; margin: 75px 150px 75px 150px; border-radius: 10px; display: flex; align-items: center; justify-content: space-between;">
+                
+                <!-- Left: stacked text -->
+                <div class="subtext"  style="display: flex; flex-direction: column;">
+                    <div>Call to action! It is time!</div>
+                    <div style="font-size: 14px; font-style: italic;">Click button to right to get more information about next steps!</div>
+                </div>
+    
+                <!-- Right: button -->
+                <div class="btn-group">
+                    <button class="button" style="margin: 0px 100px 0px 0px;">Sign up</button>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    
+    <!--Footer-->
+    <footer class="footer">
+        <div style="text-align: center; padding: 25px 10px 25px 10px;">
+            Copyright - Catherine Horton 2025
+        </div>
+    </footer>
+
+</body>
+
+</html>
